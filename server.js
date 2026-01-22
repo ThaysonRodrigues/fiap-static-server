@@ -16,6 +16,10 @@ app.get('/health', (req, res) => {
     res.send('OKKK!');
 });
 
+app.get('/api/v1/nome', (req, res) => {
+    res.send('Thayspn');
+});
+
 app.listen(3000, () => {
     console.log('Server is running on port 3000');
 }); 
